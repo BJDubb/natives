@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xF9E56683CA8E11A5 0x1D530E47
-void PLAY_PED_RINGTONE(char* ringtoneName, Ped ped, BOOL p2);
+void PLAY_PED_RINGTONE(char* soundName, Ped ped, BOOL triggerAsHudSound);
 ```
 
 ```
@@ -15,7 +15,7 @@ AUDIO::PLAY_PED_RINGTONE("Dial_and_Remote_Ring", PLAYER::PLAYER_PED_ID(), 1);
 ```
 
 ## Parameters
-* **ringtoneName**: 
+* **soundName**: 
 * **ped**: 
-* **p2**: 
+* **triggerAsHudSound**: 
 
